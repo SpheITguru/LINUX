@@ -1,0 +1,13 @@
+............This is my Linux Note..........
+
+The shell os a command language interpreter.
+
+      About Shells and Terminal Windows
+
+The default promt for a regular user is simply a dollar sign:
+  $
+
+The default prompt for the root user is a pound sign:
+  #
+
+
