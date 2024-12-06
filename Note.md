@@ -14,5 +14,13 @@ Note: You can also use sudo in order to run a command as a root user<<
 ### Choosing Your Shell
 To find out your default login shell, enter the following commands:
 
-$ whoami
-$ grep siphephelo /etc/passwd
+\$ whoami \
+\$ grep siphephelo /etc/passwd
+siphephelo:x:1000:1000:Siphephelo,,,:/home/siphephelo:/bin/bash
+
+#### Running Commands
+\$ date \
+Fri 06 Dec 2024 14:51:52 SAST \
+\$ pwd - print working directory \
+/home/siphephelo/Downloads
+
