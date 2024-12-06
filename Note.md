@@ -9,3 +9,4 @@ The default promt for a regular user is simply a dollar sign:
 The default prompt for the root user is a pound sign:
   \#
 
+Note: You can also use sudo in order to run a command as a root user<<
