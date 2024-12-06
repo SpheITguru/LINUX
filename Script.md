@@ -1,0 +1,13 @@
+### Writing a script on Linux
+when writing a script on linux, you follow this principle.
+
+!#/bin/bash \
+this line initialise the shebang script.
+
+any linux commands follow, will be trigered automatically, only if they are inclueded in that file.
+
+#### Example of a script:
+!#/bin/bash \
+touch text.txt \
+sleep 5 \
+echo "text.txt file has been created"
