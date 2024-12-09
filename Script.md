@@ -11,3 +11,9 @@ any linux commands follow, will be trigered automatically, only if they are incl
 touch text.txt \
 sleep 5 \
 echo "text.txt file has been created"
+
+##### Absolute Path
+/home/siphephelo/../file.txt 
+
+##### Relative Path
+./scriptx.sh
