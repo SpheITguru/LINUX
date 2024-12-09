@@ -22,4 +22,8 @@ echo "text.txt file has been created"
 
 This line from siphephelo remote, and it need to be fetched
 
+<<<<<<< HEAD
 ### Trying conflict
+=======
+### Adding another LINE
+>>>>>>> origin/siphephelo
