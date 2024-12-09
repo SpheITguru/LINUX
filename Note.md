@@ -24,3 +24,16 @@ Fri 06 Dec 2024 14:51:52 SAST \
 \$ pwd - print working directory \
 /home/siphephelo/Downloads
 
+## useful commands:
+ls --help \
+man --help
+
+The help command, help on getting more information about the command. There is another command that is useful, called man command.
+
+man --help \
+man touch \
+ls man \
+man man
+
+
+
