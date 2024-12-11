@@ -35,5 +35,8 @@ man touch \
 ls man \
 man man
 
+##### Absolute Path
+/home/siphephelo/../file.txt 
 
-
+##### Relative Path
+./scriptx.sh
