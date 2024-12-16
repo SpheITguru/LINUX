@@ -26,4 +26,3 @@ A metacharacter is a typed character that has special meaning to the shee for co
 5. ( <> ): less, greater than sign
 
 *** 
-New notes, need to be added bellow
