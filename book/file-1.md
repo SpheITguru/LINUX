@@ -26,3 +26,30 @@ A metacharacter is a typed character that has special meaning to the shee for co
 5. ( <> ): less, greater than sign
 
 *** 
+### Piping 
+The pipe ( | ) metacharacter coneects the output from one command to the input of another command.
+
+$ cat /etc/passwd | sort | less
+
+### Sequential commands
+Sometimes, you may want a sequence of commands to run, with one command to completing before the next command begins.
+
+$ data ; troff -me verylargedocument | lp ; date
+
+### Background commands
+Some commands can take a while to complete. Sometimes, you may not want to tie up your shell waiting for a command to finish. 
+
+In those cases, you can have the commands run in the background by using the ampersand ( & ).
+
+### Expanding commands
+With command substitution, you can have the output of a command interpreted by the shell instead of by the command itself.
+
+\$ nano $(find /home | grep xyzzy)
+
+#### Expanding arithmetic expressions
+Sometimes, you want to pass arithmetics results to a command using $[expression]
+
+$ echo "I am $[2019 - 1957] years old."
+
+#### Everything that starts with $ : communicate ti the shell
+$[Expression]
