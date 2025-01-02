@@ -11,3 +11,8 @@ absolute path always starts at the root level, whereas the reelative path starts
 
 cd alon, return to your home directory. tilde(~) also represents your home directory.
 
+### Using Metacharacters and Operators
+\* Matches any number of characters.\
+? Matches any one character.\
+[...] Matches any one of the characters between the brackets, which can include a hyphen-separated range of letters or numbers.
+
