@@ -41,3 +41,24 @@ r - read\
 w - write\
 x - execute
 
+#### Changing permissions with chmod (numbers)
+If you own a file, you can use the chmod command to change the permission on it.
+
+r=4, w=2, and x=1\
+rwxrwxrwx = 777\
+\--- --- --- = 000
+
+#### Changing permissions with chmod (letters)
+You can also turn files permissions on and off using plus (+) and minus (-) signs. (u) user, (g) group, (o) other, and all users (a).
+
+#### Setting default file permission with umask
+umask
+
+#### Changing file ownership
+chown 
+
+#### Moving, Copying, and Removing Files
+mv : Move files around\
+cp : Cope files\
+rm : remove files
+
