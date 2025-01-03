@@ -27,3 +27,17 @@ cd alon, return to your home directory. tilde(~) also represents your home direc
  \$ touch memo{1,2,3,4,5}\
  \$ touch test-{a,b,c}-{x,y,z}\
  $ touch {a..f}{1..5}
+
+ ### Understanding File Permissions and Ownership
+-rwxrwxrwx
+
+For a regular file, a dash appears in front of the nine-bit permissions indicator. instead of a dash, you might see a d (for a director), l (for a symbolic link), b (for a block device), c (for a character device), s (for a socket), or p (for a named pipe)
+
+first three bits: Owner's permission.\
+Next three bits: apply to the group.\
+last three bits: apply to all others.
+
+r - read\
+w - write\
+x - execute
+
