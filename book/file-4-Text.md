@@ -29,4 +29,4 @@ The -size option enables you to search for files that are exactly, smaller than,
 -perm option\
 \$ find /usr/bin -perm 755 -ls
 
-##### More on find command
+##### Finding files by date and time
