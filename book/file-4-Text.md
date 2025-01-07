@@ -55,3 +55,8 @@ Find has a most powerful feature to execute commands on any files you found. Wit
 \$ find [options] -ok command {} \\;
 
 #### Searching in files with grep
+If you want to search for files that contain certain search term, you can use the *grep* command. You can use grep to search a single file or search a whole directory structure of files recursively.
+
+-i : for case-insensitive\
+-v :for lines that don't contain a selected test \
+-r : to do recursive searchs
