@@ -49,3 +49,9 @@ files that have not been accessed in more than 300 days.
 -and : AND
 
 ##### Finding files and executing commands
+Find has a most powerful feature to execute commands on any files you found. With -exec option. The -ok option stops at each matched file and asks whether you want to run the command on it.
+
+\$ find [options] -exec command {} \\;\
+\$ find [options] -ok command {} \\;
+
+#### Searching in files with grep
