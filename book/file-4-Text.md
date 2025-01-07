@@ -30,3 +30,8 @@ The -size option enables you to search for files that are exactly, smaller than,
 \$ find /usr/bin -perm 755 -ls
 
 ##### Finding files by date and time
+\$ find /etc/ -mmin -60\
+see what has changed in the past 60 minutes.
+
+\$ find /bin -ctime -3\
+check if there is any change happened in the last 3 days
