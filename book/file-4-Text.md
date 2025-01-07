@@ -35,3 +35,6 @@ see what has changed in the past 60 minutes.
 
 \$ find /bin -ctime -3\
 check if there is any change happened in the last 3 days
+
+\$ find /var/ftp -atime +300\
+files that have not been accessed in more than 300 days.
