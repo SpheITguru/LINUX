@@ -42,3 +42,10 @@ files that have not been accessed in more than 300 days.
 (-atime, -ctime, and -mtime) enables you to search based on the number of days since each file was accessed, changes, or had its metadata changed.
 
 (-amin, -cmin, and -mmin) do the same in minutes.
+
+##### Using 'not' and 'or' when finding files
+-o : OR\
+-not : NOT\
+-and : AND
+
+##### Finding files and executing commands
