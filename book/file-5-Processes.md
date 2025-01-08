@@ -8,3 +8,4 @@ A process is a running instance of a command. A process is identified on the sys
 ps -u\
 -u : askes that usernames be shown, as well as other information.\
 -ux : the most popular
+
