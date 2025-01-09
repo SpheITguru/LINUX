@@ -10,3 +10,8 @@ ps -u\
 -ux : the most popular
 
 ##### Listing and changing processes with top
+
+##### Renicing a process
+Note the process ID of the process you want to renice and press *r*.
+
+##### Killing a process
