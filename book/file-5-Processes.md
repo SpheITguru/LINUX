@@ -9,3 +9,4 @@ ps -u\
 -u : askes that usernames be shown, as well as other information.\
 -ux : the most popular
 
+##### Listing and changing processes with top
