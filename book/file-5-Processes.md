@@ -17,3 +17,4 @@ Note the process ID of the process you want to renice and press *r*.
 ##### Killing a process
 
 #### Managing Background and Foreground Processes
+& : is used to run process at the background
