@@ -8,3 +8,7 @@ bash myscript
 
 secondly, you can write it using the interpreter placed in the first line of the script preceded by #! (as in #!/bin/bash)
 
+(#) The pound sign prefaces comments that can take up an entire line.
+
+You can use set -x near the beginning of the script to display each command that is executed or launch your scripts using.\
+$ bash -x myscript
