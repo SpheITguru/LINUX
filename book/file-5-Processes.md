@@ -20,3 +20,4 @@ Note the process ID of the process you want to renice and press *r*.
 & : is used to run process at the background
 
 continue with the notes
+testing something
