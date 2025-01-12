@@ -12,3 +12,11 @@ secondly, you can write it using the interpreter placed in the first line of the
 
 You can use set -x near the beginning of the script to display each command that is executed or launch your scripts using.\
 $ bash -x myscript
+
+#### Understanding shell variables
+Variable names within shell scripts are case sensitive and can be defined in the following manner:\
+NAME=value
+
+The first part of a variable is the variable name, and the second part is the value set for that name. Make sure that the NAME and value touch the qual sign, without any spaces.
+
+Variables can also contain the output of a command or command sequence.
