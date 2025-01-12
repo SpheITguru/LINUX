@@ -19,3 +19,4 @@ Note the process ID of the process you want to renice and press *r*.
 #### Managing Background and Foreground Processes
 & : is used to run process at the background
 
+continue with the notes
