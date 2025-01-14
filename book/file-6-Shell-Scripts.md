@@ -20,3 +20,5 @@ NAME=value
 The first part of a variable is the variable name, and the second part is the value set for that name. Make sure that the NAME and value touch the qual sign, without any spaces.
 
 Variables can also contain the output of a command or command sequence.
+
+continuing with the script
