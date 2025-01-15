@@ -23,3 +23,4 @@ Variables can also contain the output of a command or command sequence.
 
 continuing with the script
 adding new line
+adding deleted line
