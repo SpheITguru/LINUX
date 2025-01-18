@@ -33,6 +33,7 @@ The help command, help on getting more information about the command. There is a
 man --help \
 man touch \
 ls man \
+new line
 man man
 
 ##### Absolute Path
