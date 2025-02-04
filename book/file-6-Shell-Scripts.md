@@ -22,3 +22,4 @@ The first part of a variable is the variable name, and the second part is the va
 Variables can also contain the output of a command or command sequence.
 
 I need to continue here!
+lots of work need to be done
